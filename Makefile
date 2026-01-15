@@ -1,7 +1,7 @@
 rebuild:
 	git pull
-	git commit -am "Building new system on $(shell date)"
-	git push
+	-git commit -am "Building new system on $(shell date)"
+	-git push
 	sudo nixos-rebuild switch --upgrade --flake ./#mannchri
 
 rebuild-all:
