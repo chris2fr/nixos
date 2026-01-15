@@ -43,5 +43,16 @@ in {
     shellcheck
     shfmt
     statix
+
+    pciutils
+    usbutils
+    testdisk
+    rclone
+
+    hwinfo
+    safecopy
+    hw-probe # Nice to have ?
+    hwdata # Nice to have ?
+
   ];
 }
