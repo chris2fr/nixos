@@ -1,7 +1,7 @@
 rebuild:
 	git pull
-	# git commit -am "Building new system"
-	# git push
+	git commit -am "Building new system on $(shell date)"
+	git push
 	sudo nixos-rebuild switch --upgrade --flake ./#mannchri
 
 rebuild-all:
@@ -16,3 +16,6 @@ check:
 garbage-collect:
 	nix-collect-garbage --delete-older-than 7d
 	nix-store --gc
+
+date:
+	@echo "Building new system on $(shell date)"
