@@ -53,6 +53,9 @@ in {
     safecopy
     hw-probe # Nice to have ?
     hwdata # Nice to have ?
+    
+    hdparm
+    kdiskmark
 
   ];
 }

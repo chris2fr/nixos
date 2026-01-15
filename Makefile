@@ -16,6 +16,3 @@ check:
 garbage-collect:
 	nix-collect-garbage --delete-older-than 7d
 	nix-store --gc
-
-date:
-	@echo "Building new system on $(shell date)"
