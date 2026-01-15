@@ -55,7 +55,10 @@ in {
     hwdata # Nice to have ?
     
     hdparm
-    kdiskmark
+    gdu
+    dysk
+    fio
+
 
   ];
 }
