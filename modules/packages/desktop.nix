@@ -9,7 +9,7 @@ in {
 	{ nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
              "anytype"
            ];
-         }
+         };
 
   environment.systemPackages = with pkgs; [
   	keyguard # This is a long build
