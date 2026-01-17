@@ -6,6 +6,11 @@
   ...
 }: let
 in {
+	{ nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+             "anytype"
+           ];
+         }
+
   environment.systemPackages = with pkgs; [
   	keyguard # This is a long build
   	vscode
@@ -119,6 +124,7 @@ in {
 	ungoogled-chromium
 	firefox
 	google-chrome
+	anytype
   ];
   #   services.fprintd.enable = true;
   # # If simply enabling fprintd is not enough, try enabling fprintd.tod...
