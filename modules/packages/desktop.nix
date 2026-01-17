@@ -127,7 +127,8 @@ in
     ungoogled-chromium
     firefox
     google-chrome
-    anytype
+    lxqt.liblxqt
+    qownnotes
   ];
   #   services.fprintd.enable = true;
   # # If simply enabling fprintd is not enough, try enabling fprintd.tod...
