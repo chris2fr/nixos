@@ -6,7 +6,7 @@
 }:
 {
   networking = {
-    hostName = "mannchri-lenl14g3";
+    hostName = "mannchri";
     hosts = {
       "192.168.1.100" = ["rosesdmzt330"];
       "192.168.1.101" = ["roseslant330"];
