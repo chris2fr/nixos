@@ -37,7 +37,7 @@
     "/mnt/nvme2024/wind" = {
       # label = "Wind";
       device = "/dev/disk/by-uuid/70d74d2e-077f-4f94-8dff-1c4e127cc49b";
-      fsType = "ntfs";
+      fsType = "ext4";
       options = [
         "defaults"
         "user"
