@@ -4,11 +4,13 @@
   lib,
   vars,
   ...
-}: let
-in {
+}:
+let
+in
+{
   # Remap CAPS lock to ESC
-services.udev.extraHwdb = ''
-  evdev:atkbd:*
-    KEYBOARD_KEY_3a=esc
-'';
+  services.udev.extraHwdb = ''
+    evdev:atkbd:*
+      KEYBOARD_KEY_3a=esc
+  '';
 }
