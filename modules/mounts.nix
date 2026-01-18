@@ -8,7 +8,7 @@
   fileSystems = {
     # "# UUID=E21A-D2D3                            /mnt/nvme2024//boot/efi      vfat    umask=0077 0 2"
     # Manjaro  Root 0 1
-    "/mnt/nvme2024" = {
+    "/mnt/nvme2024/root" = {
       # label = "Manjaro Root";
       device = "/dev/disk/by-uuid/0b46aa16-1916-45d3-8577-fdc0ad917bef";
       fsType = "ext4";
@@ -19,18 +19,18 @@
         "noauto"
       ];
     };
-    # Manjaro  Boot 0 2
-    "/mnt/nvme2024/boot" = {
-      # label = "Manjaro Boot";
-      device = "/dev/disk/by-uuid/e8cc7c02-9e62-430c-a680-5773effc1e7a";
-      fsType = "ext4";
-      options = [
-        "defaults"
-        "user"
-        "noatime"
-        "noauto"
-      ];
-    };
+    # # Manjaro  Boot 0 2
+    # "/mnt/nvme2024/boot" = {
+    #   # label = "Manjaro Boot";
+    #   device = "/dev/disk/by-uuid/e8cc7c02-9e62-430c-a680-5773effc1e7a";
+    #   fsType = "ext4";
+    #   options = [
+    #     "defaults"
+    #     "user"
+    #     "noatime"
+    #     "noauto"
+    #   ];
+    # };
     # "# /UUID=867b8d50-3d35-4775-9140-3fb6a8ebf793 swap           swap    defaults,noatime 0 0"
     # "# /dev/disk/by-label/WIND                   /mnt/wind      ntfs rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other"
     #   0 2
