@@ -39,6 +39,7 @@
           ./modules/packages.nix
           ./modules/networking.nix
           ./modules/mounts.nix
+          ./modules/perso.nix
           agenix.nixosModules.default
           home-manager.nixosModules.home-manager
         ];
