@@ -14,5 +14,6 @@ in
   #     KEYBOARD_KEY_3a=esc
   # '';
   # services.xserver.xkb.options = "grp:alt_space_toggle, ctrl:swapcaps";
+  # console.useXkbConfig = true;
 
 }

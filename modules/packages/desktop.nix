@@ -129,6 +129,8 @@ in
     google-chrome
     lxqt.liblxqt
     qownnotes
+    gnomeExtensions.clipboard-indicator
+    gnomeExtensions.vitals
   ];
   #   services.fprintd.enable = true;
   # # If simply enabling fprintd is not enough, try enabling fprintd.tod...
