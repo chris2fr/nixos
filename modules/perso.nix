@@ -8,9 +8,11 @@
 let
 in
 {
-  # Remap CAPS lock to ESC
-  services.udev.extraHwdb = ''
-    evdev:atkbd:*
-      KEYBOARD_KEY_3a=esc
-  '';
+  # # Remap CAPS lock to ESC
+  # services.udev.extraHwdb = ''
+  #   evdev:atkbd:*
+  #     KEYBOARD_KEY_3a=esc
+  # '';
+  services.xserver.xkb.options = "grp:alt_space_toggle, ctrl:swapcaps";
+
 }
