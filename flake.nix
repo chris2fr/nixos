@@ -38,7 +38,7 @@
           ./etc/nixos/configuration.nix
           ./modules/packages.nix
           ./modules/networking.nix
-          ./modules/systemd.nix
+          # ./modules/systemd.nix
           agenix.nixosModules.default
           home-manager.nixosModules.home-manager
         ];
