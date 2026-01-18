@@ -53,6 +53,8 @@
   services.xserver.xkb = {
     layout = "ca";
     variant = "multix";
+    options = "caps:escape";
+    # options = "grp:alt_space_toggle, ctrl:swapcaps";
   };
 
   # Configure console keymap

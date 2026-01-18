@@ -13,6 +13,6 @@ in
   #   evdev:atkbd:*
   #     KEYBOARD_KEY_3a=esc
   # '';
-  services.xserver.xkb.options = "grp:alt_space_toggle, ctrl:swapcaps";
+  # services.xserver.xkb.options = "grp:alt_space_toggle, ctrl:swapcaps";
 
 }
