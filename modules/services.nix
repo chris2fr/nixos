@@ -28,9 +28,9 @@ in
         pkgs.epson-escpr2 # Drivers for Epson AirPrint devices
         pkgs.epson-escpr # Drivers for some other Epson devices
         #####
-        # mfcl5750dw
-        mfcj6510dw-cupswrapper
-        mfcj6510dwlpr
+        pkgs.mfcl5750dw
+        pkgs.mfcj6510dw-cupswrapper
+        pkgs.mfcj6510dwlpr
       ];
     };
     avahi = {
