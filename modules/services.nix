@@ -28,8 +28,8 @@ in
         pkgs.epson-escpr2 # Drivers for Epson AirPrint devices
         pkgs.epson-escpr # Drivers for some other Epson devices
         #####
-        pkgs.mfcl5750dw
-        # pkgs.mfcj6510dw-cupswrapper
+        # pkgs.mfcl5750dw
+        pkgs.mfcj6510dw-cupswrapper
         # pkgs.mfcj6510dwlpr
         # pkgs.mfcj470dwlpr
         # pkgs.mfcj470dw-cupswrapper
