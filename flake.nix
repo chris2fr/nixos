@@ -36,10 +36,11 @@
         modules = [
           # ./overlays.nix
           ./etc/nixos/configuration.nix
-          ./modules/packages.nix
-          ./modules/networking.nix
           ./modules/mounts.nix
+          ./modules/networking.nix
+          ./modules/packages.nix
           ./modules/perso.nix
+          ./modules/services.nix
           agenix.nixosModules.default
           home-manager.nixosModules.home-manager
         ];
