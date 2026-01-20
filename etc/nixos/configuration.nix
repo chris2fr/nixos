@@ -89,14 +89,15 @@
     extraGroups = [
       "networkmanager"
       "wheel"
+      "lp"
     ];
     packages = with pkgs; [
       #  thunderbird
     ];
   };
-  users.users.${config.userDefinedGlobalVariables.username} = {
-    extraGroups = [ "lp" ];
-  };
+  # users.users.${config.userDefinedGlobalVariables.username} = {
+  #   extraGroups = [ "lp" ];
+  # };
   # Install firefox.
   programs.firefox.enable = true;
 
