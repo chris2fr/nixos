@@ -88,7 +88,7 @@ in
     pcre
     libp11
     autoPatchelfHook
-    libsForQt5.full
+    libsForQt5
     cups
     pcsclite
   ];
