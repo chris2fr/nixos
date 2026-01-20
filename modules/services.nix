@@ -13,7 +13,7 @@ in
       ### https://nixos.wiki/wiki/Printing
       enable = true;
       drivers = [
-        # pkgs.gutenprint # Drivers for many different printers from many different vendors.
+        pkgs.gutenprint # Drivers for many different printers from many different vendors.
         pkgs.gutenprintBin # Additional, binary-only drivers for some printers.
         # pkgs.hplip # Drivers for HP printers.
         pkgs.hplipWithPlugin # Drivers for HP printers, with the proprietary plugin. Use NIXPKGS_ALLOW_UNFREE=1 nix-shell -p hplipWithPlugin --run 'sudo -E hp-setup' to add the printer, regular CUPS UI doesn't seem to work.
@@ -27,6 +27,8 @@ in
         # pkgs.cnijfilter2 # Drivers for some Canon Pixma devices (Proprietary driver)
         pkgs.epson-escpr2 # Drivers for Epson AirPrint devices
         pkgs.epson-escpr # Drivers for some other Epson devices
+        #####
+        mfcl5750dw
       ];
     };
     avahi = {
