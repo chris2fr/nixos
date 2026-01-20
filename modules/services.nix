@@ -31,8 +31,8 @@ in
         # pkgs.mfcl5750dw
         # pkgs.mfcj6510dw-cupswrapper
         # pkgs.mfcj6510dwlpr
-        mfcj470dwlpr
-        mfcj470dw-cupswrapper
+        # pkgs.mfcj470dwlpr
+        # pkgs.mfcj470dw-cupswrapper
       ];
     };
     avahi = {
