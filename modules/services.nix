@@ -8,6 +8,21 @@
 let
 in
 {
+
+  hardware.printers.ensurePrinters =
+    [
+      {
+       name = "MFC-J5345DW";
+        location = "Living Room";
+        description = "Brother MFC-J5345DW";
+        deviceUri = "ipp://192.168.1.152";
+        model = "gutenprint.${pkgs.lib.versions.majorMinor (pkgs.lib.getVersion pkgs.gutenprint)}://pcl-g_c/expert";
+        ppdOptions = {
+          PageSize = "A4";
+        };
+      }
+    ];
+
   services = {
     printing = {
       ### https://nixos.wiki/wiki/Printing
@@ -29,7 +44,7 @@ in
         pkgs.epson-escpr # Drivers for some other Epson devices
         #####
         # pkgs.mfcl5750dw
-        pkgs.mfcj6510dw-cupswrapper
+        # pkgs.mfcj6510dw-cupswrapper
         # pkgs.mfcj6510dwlpr
         # pkgs.mfcj470dwlpr
         # pkgs.mfcj470dw-cupswrapper
