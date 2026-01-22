@@ -131,14 +131,14 @@ in
     qownnotes
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.vitals
-    # karere # WhatsApp client # Forget
+    karere # WhatsApp client 
 
     whatsapp-electron
     whatsapp-chat-exporter
-    # wasistlos
-    # whatsie
-    # altus 
-    # zapzap
+    wasistlos
+    # whatsie  # Forget it # Uses qtwebengine
+    altus 
+    zapzap
   ];
   #   services.fprintd.enable = true;
   # # If simply enabling fprintd is not enough, try enabling fprintd.tod...
