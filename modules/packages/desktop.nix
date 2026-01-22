@@ -132,6 +132,11 @@ in
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.vitals
     karere # WhatsApp client
+
+    whatsapp-electron
+    whatsapp-chat-exporter
+    wasistlos
+    whatsie
   ];
   #   services.fprintd.enable = true;
   # # If simply enabling fprintd is not enough, try enabling fprintd.tod...
