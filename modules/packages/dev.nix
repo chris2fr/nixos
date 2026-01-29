@@ -13,6 +13,7 @@ in
     docker
   ];
   virtualisation.docker.enable = true;
+  users.users.mannchri.extraGroups = ["docker"];
   services.mysql = {
     enable = true;
     package = pkgs.mariadb;
