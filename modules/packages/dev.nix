@@ -10,7 +10,9 @@ in
 {
   environment.systemPackages = with pkgs; [
     nodejs
+    docker
   ];
+  virtualisation.docker.enable = true;
   services.mysql = {
     enable = true;
     package = pkgs.mariadb;
