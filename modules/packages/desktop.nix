@@ -73,7 +73,7 @@ in
     inter
     isoimagewriter
     jxplorer
-    karere # WhatsApp client 
+    # karere # WhatsApp client 
     kdePackages.kdenlive
     kdiskmark
     keyguard # This is a long build
@@ -129,12 +129,12 @@ in
     vscode-extensions.bbenoist.nix
     vscode-with-extensions
     vym
-    wasistlos
+    wasistlos # WhatsApp client 
     webfont-bundler
     whatsapp-chat-exporter
-    whatsapp-electron
+    # whatsapp-electron  # WhatThis iwsApp client 
     wike
-    zapzap
+    # zapzap # WhatsApp client 
     zettlr
     zoom-us
     zotero
