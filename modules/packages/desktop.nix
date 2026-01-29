@@ -19,7 +19,7 @@ in
     # Gnome
     # ventoy # insecure
     # whatsie  # Forget it # Uses qtwebengine
-    altus 
+    # altus # WhatsApp client
     amberol
     apache-directory-studio
     apostrophe
