@@ -118,6 +118,7 @@ in
     system-config-printer
     tangram
     testdisk-qt
+    texliveFull
     textpieces
     texworks
     tigervnc
