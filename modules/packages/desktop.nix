@@ -93,6 +93,7 @@ in
     obs-studio
     ocrfeeder
     ocrmypdf
+    pandoc
     paper-clip
     paperwork
     pdfarranger
