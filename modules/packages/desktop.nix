@@ -90,7 +90,7 @@ in
     lxqt.liblxqt
     marktext
     meld
-    miktex
+    # miktex
     minder
     mousai
     mysql-workbench
@@ -134,6 +134,7 @@ in
     textidote
     texstudio
     texpresso
+    tetex
     tigervnc
     tuba
     ungoogled-chromium
