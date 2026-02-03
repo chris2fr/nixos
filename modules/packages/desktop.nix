@@ -85,6 +85,7 @@ in
     lxqt.liblxqt
     marktext
     meld
+    miktex
     minder
     mousai
     mysql-workbench
@@ -120,6 +121,8 @@ in
     tangram
     testdisk-qt
     texliveFull
+    tex-fmt
+    texlivePackages.latexindent
     textpieces
     texworks
     tigervnc
