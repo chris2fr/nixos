@@ -30,7 +30,6 @@ in
     biber
     texlivePackages.biblatex
     texlivePackages.biblatex-enc
-    bibtex
     bitwarden-desktop
     bustle
     cmake
