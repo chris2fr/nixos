@@ -29,7 +29,7 @@ in
     blanket
     biber
     texlivePackages.biblatex
-    texlivePackages.biblatex-enc
+    # texlivePackages.biblatex-enc
     bibtex-tidy
     bibtex2html
     bitwarden-desktop
@@ -126,6 +126,7 @@ in
     tangram
     testdisk-qt
     texliveFull
+    texworks
     tex-fmt
     texlivePackages.latexindent
     textpieces
