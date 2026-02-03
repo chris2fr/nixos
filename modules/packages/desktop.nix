@@ -28,7 +28,8 @@ in
     authenticator
     blanket
     biber
-    biblatex
+    texlivePackages.biblatex
+    texlivePackages.biblatex-enc
     bibtex
     bitwarden-desktop
     bustle
