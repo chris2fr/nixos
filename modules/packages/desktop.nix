@@ -27,6 +27,7 @@ in
     audio-sharing
     authenticator
     blanket
+    biber
     bitwarden-desktop
     bustle
     cmake
