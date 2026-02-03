@@ -28,6 +28,8 @@ in
     authenticator
     blanket
     biber
+    biblatex
+    bibtex
     bitwarden-desktop
     bustle
     cmake
