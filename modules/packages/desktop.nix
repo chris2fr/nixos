@@ -126,11 +126,14 @@ in
     tangram
     testdisk-qt
     texliveFull
-    texworks
     tex-fmt
     texlivePackages.latexindent
     textpieces
     texworks
+    texmaker
+    textidote
+    texstudio
+    texpresso
     tigervnc
     tuba
     ungoogled-chromium
