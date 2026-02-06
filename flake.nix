@@ -34,7 +34,7 @@
       mannchri = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-          # ./overlays.nix
+          ./overlays.nix
           ./etc/nixos/configuration.nix
           ./modules/mounts.nix
           ./modules/networking.nix
