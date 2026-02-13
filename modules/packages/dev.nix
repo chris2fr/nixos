@@ -14,6 +14,7 @@ in
     libvirt
     virt-manager
     qemu
+    quickemu
     arping
     iputils
   ];
