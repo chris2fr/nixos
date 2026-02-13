@@ -13,6 +13,7 @@ in
     docker
     libvirt
     virt-manager
+    qemu
     arping
     iputils
   ];
