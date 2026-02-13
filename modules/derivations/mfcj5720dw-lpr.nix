@@ -15,6 +15,7 @@
   makeWrapper,
   perl,
   buildFHSEnv
+  # nix-shell -p stdenv_32bit glibc cups dpkg ghostscript a2ps coreutils gnused gawk file gnugrep makeWrapper perl
 }:
   let
     stdenv = stdenv_32bit;

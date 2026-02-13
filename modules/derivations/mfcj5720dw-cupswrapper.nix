@@ -11,6 +11,7 @@
   gnugrep,
   pkgs,
   mfcj5720dw-lpr
+  # nix-shell -p stdenv_32bit glibc cups dpkg ghostscript a2ps coreutils gnused gawk file gnugrep makeWrapper perl
 }:
   let
     model      = "mfcj5720dw";
