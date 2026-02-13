@@ -158,7 +158,6 @@ in
     # mfcj5720dw-lpr
     kdePackages.gwenview
     kdePackages.dolphin
-
   ];
   #   services.fprintd.enable = true;
   # # If simply enabling fprintd is not enough, try enabling fprintd.tod...

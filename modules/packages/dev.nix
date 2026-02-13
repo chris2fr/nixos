@@ -11,6 +11,10 @@ in
   environment.systemPackages = with pkgs; [
     nodejs
     docker
+    libvirt
+    virt-manager
+    arping
+    iputils
   ];
   virtualisation.docker.enable = true;
   users.users.mannchri.extraGroups = ["docker"];
