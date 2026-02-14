@@ -9,7 +9,7 @@ let
 in
 {
   virtualisation = {
-    libvertd = {
+    libvirtd = {
       enable = true;
       qemu = {
         swtpm.enable = true;
