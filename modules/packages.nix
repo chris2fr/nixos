@@ -13,6 +13,7 @@ in
     ./packages/common.nix
     ./packages/desktop.nix
     ./packages/dev.nix
+    ./packages/virt.nix
   ];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
